@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Favorite books and movies</title>
+</head>
+<body>
+    <form action="/process-form.php" method="POST">
+        <label>Do you prefer cats or dogs?</label><br>
+        <input type="radio" id="cats" name="pets" value="cats">
+        <label for="cats">Cats</label><br>
+        <input type="radio" id="dogs" name="pets" value="dogs">
+        <label for="dogs">Dogs</label><br><br>
+        
+        <label for="food">What is your favorite food?</label><br>
+        <select id="food" name="food">
+          <option value="pizza">Pizza</option>
+          <option value="tacos">Tacos</option>
+          <option value="sushi">Sushi</option>
+          <option value="pasta">Pasta</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+      </form>
+    <h3>Favorite books and movies</h3>
+    <ul>
+            <h3>Fictional books</h3>
+            <ol>
+                <li><em> <a  target="_blank" href="https://www.imdb.com/title/tt0120737/">The lord of the rings</a></em></li>
+                <li><em>The name of the wind</em></li>
+                <li><em>Hideaway</em></li>
+            </ol>
+            <h3>Non-fiction books</h3>
+            <ol>
+                <li><em>Shoe Dog</em></li>
+                <li><em>Cobalt Red</em></li>
+                <li><em>The promised land</em></li>
+            </ol>
+            <h3>Favortie movies</h3>
+            <ol>
+                <li><em>Inception</em></li>
+                <li><em>Lucy</em></li>
+                <li><em>American Gods</em></li>
+            </ol>
+        </ol>
+    </ol>
+    <a href="index.html">Home</a>
+</body>
+</html>
